@@ -91,7 +91,7 @@ a img {
 /* Projects Page CSS */
 .project-img {
     height: 300px;
-    width: 450px;
+    width: 500px;
     margin-top: 0px;
 }
 .project-img:hover {
@@ -109,7 +109,8 @@ a img {
 .project-title {
     margin-top: 10px;
     font-size: 45px;
-    margin-left: 20px;
+    margin-left: 40px;
+    color: white;
 }
 
 .projects-cointainer {
@@ -128,8 +129,8 @@ height: fit-content;
 }
 
 .project-description {
-    width: fit-content;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: 40px;
 }
 
 .project-text {
