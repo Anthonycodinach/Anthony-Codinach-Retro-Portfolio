@@ -1,0 +1,12 @@
+{
+  "name": "anthony-codinach-retro-portfolio",
+  "version": "1.0.0",
+  "description": "Here you can access my professional digital portfolio that houses links to projects I have collaborated on with other developers &amp; solo projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
