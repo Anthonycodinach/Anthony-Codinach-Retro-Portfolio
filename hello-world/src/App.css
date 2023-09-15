@@ -87,71 +87,94 @@ a img {
   }
 }
 
-/* Projects Page CSS */
-.project-img {
-  height: 300px;
-  width: 500px;
-  margin-top: 0px;
-}
-.project-img:hover {
-  opacity: 0.8;
-}
-
-.project-welcome {
-  font-size: 150px;
-  color: #EBA70E;
-  margin: 0 auto;
-  letter-spacing: 0.05em;
-  text-shadow: rgb(196, 57, 29) 7px 5px 0
-}
-
-.project-title {
-  margin-top: 10px;
-  font-size: 45px;
-  margin-left: 40px;
-  color: white;
-}
-
-.projects-cointainer {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-top: 100px;
-}
-
-.project-cointainer {
-width: 475px;
-display: flex;
-display: block;
-justify-content: center;
-height: fit-content;
-}
-
-.project-description {
-  width: 100%;
-  margin-left: 40px;
-}
-
-.project-text {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-#projects-page-title-wrapper {
+nav {
 width: 100%;
-display: flex;
-justify-content: center;
-margin-top: 80px;
+position: relative;
+top:1030px;
 }
 
-/* media queries */
-@media (max-width: 1425px){
-.project-cointainer {
-  margin-top: 50px;
+nav ul {
+  display: flex;
+ width: 100%;
+ justify-content: center;
+ list-style: none;
 }
+
+nav li {
+  margin-left: 30px;
 }
-@media (max-width: 670px){
-  .project-welcome {
-      font-size: 80px;
+
+nav a {
+  color: white;
+  font-size: 30px;
+}
+
+  /* contact page */
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #EBA70E;
   }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(196, 57, 29);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .resume-cointainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resume-h1 {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .resume-img {
+    height: 1100px;
+    width: 900px;
+    margin-bottom: 100px;
+    margin-left: 680px;
   }

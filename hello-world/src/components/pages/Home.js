@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from '';
+import logo from '../../launch.png';
 
-
-export default function Home() {
+export default function Home({ currentPage, handlePageChange }) {
   return (
-    <body>
-    <div className="body-container">
+    <div>
       <div className="wrapper">
         <h1 className="welcomeText anim-typewriter"> Welcome. </h1>
       </div>
@@ -15,7 +13,6 @@ export default function Home() {
           ever-expanding tech space. The intersection between technology & creativity has always fascinated me.
         </p>{' '}
         <br/>
-
         <p>
           This portfolio is a love letter to my admiration for the past & future. Explore my catalog of the digital
           projects I've created during my journey into tech.
@@ -32,8 +29,5 @@ export default function Home() {
        <img src={logo} alt="Click button" />
     </a>
     </div>
-
-    <script></script>
-  </body>
   );
 }

@@ -1,0 +1,97 @@
+.project-img {
+    height: 300px;
+    width: 500px;
+    margin-top: 0px;
+  }
+  .project-img:hover {
+    opacity: 0.8;
+  }
+  
+  .project-welcome {
+    font-size: 150px;
+    color: #EBA70E;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+    text-shadow: rgb(196, 57, 29) 7px 5px 0
+  }
+  
+  .project1-title {
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.project2-title {
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.project1-title {
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.project3-title {
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+  
+  .projects-cointainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  .project-cointainer {
+  width: 475px;
+  display: flex;
+  display: block;
+  justify-content: center;
+  height: fit-content;
+  }
+  
+  .project1-description {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .project2-description {
+    width: 100%;
+    margin-left: 40px;
+  }
+
+  .project3-description {
+    width: 100%;
+    margin-left: 40px;
+  }
+  
+  .project-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  #projects-page-title-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  }
+  
+  /* media queries */
+@media (max-width: 1425px){
+    .project-cointainer {
+      margin-top: 50px;
+    }
+    }
+    @media (max-width: 670px){
+      .project-welcome {
+          font-size: 80px;
+      }
+      }
