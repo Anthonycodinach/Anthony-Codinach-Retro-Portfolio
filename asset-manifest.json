@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Anthony-Codinach-Retro-Portfolio/static/css/main.2f8dcf68.css",
+    "main.js": "/Anthony-Codinach-Retro-Portfolio/static/js/main.8ad5dcdf.js",
+    "static/js/787.a9120f67.chunk.js": "/Anthony-Codinach-Retro-Portfolio/static/js/787.a9120f67.chunk.js",
+    "static/media/community-builders.png": "/Anthony-Codinach-Retro-Portfolio/static/media/community-builders.91e98d3aba71dba914f4.png",
+    "static/media/deployed-application.jpeg": "/Anthony-Codinach-Retro-Portfolio/static/media/deployed-application.4e0e4cc9cd1d1dce0b16.jpeg",
+    "static/media/resume.png": "/Anthony-Codinach-Retro-Portfolio/static/media/resume.7e68c9dfe628326790f4.png",
+    "static/media/launch.png": "/Anthony-Codinach-Retro-Portfolio/static/media/launch.320c6cafea5fadfa96f6.png",
+    "index.html": "/Anthony-Codinach-Retro-Portfolio/index.html",
+    "main.2f8dcf68.css.map": "/Anthony-Codinach-Retro-Portfolio/static/css/main.2f8dcf68.css.map",
+    "main.8ad5dcdf.js.map": "/Anthony-Codinach-Retro-Portfolio/static/js/main.8ad5dcdf.js.map",
+    "787.a9120f67.chunk.js.map": "/Anthony-Codinach-Retro-Portfolio/static/js/787.a9120f67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f8dcf68.css",
+    "static/js/main.8ad5dcdf.js"
+  ]
+}
