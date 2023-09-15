@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from '../../launch.png';
+import logo from '../../../launch.png';
+import "./style.css"
 
 export default function Home({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className="body-cointainer">
       <div className="wrapper">
         <h1 className="welcomeText anim-typewriter"> Welcome. </h1>
       </div>
-      <div id="textContainer">
+      <div id="textCointainer">
         <p>
           I'm <span style={{ color: '#C4391D' }}>Anthony Codinach</span>, a dynamic creative breaking into the
           ever-expanding tech space. The intersection between technology & creativity has always fascinated me.
