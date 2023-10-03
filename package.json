@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "Here you can access my professional digital portfolio that houses links to projects I have collaborated on with other developers &amp; solo projects",
   "main": "index.js",
+  "homepage": "https://Anthonycodinach.github.io/Anthony-Codinach-Retro-Portfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
