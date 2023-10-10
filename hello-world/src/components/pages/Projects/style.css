@@ -2,6 +2,8 @@
     height: 300px;
     width: 500px;
     margin-top: 0px;
+    border: #FFF5DE solid 3px;
+    border-radius: 5px;
 }
 
 .project-img:hover {
@@ -11,31 +13,18 @@
 .project-welcome {
     font-size: 150px;
     color: #EBA70E;
-    margin: 0 auto;
-    letter-spacing: 0.05em;
-    text-shadow: rgb(196, 57, 29) 7px 5px 0
-}
-
-.project1-title {
-    margin-top: 10px;
-    font-size: 45px;
-    text-align: center;
-    color: white;
-}
-
-.project2-title {
-    margin-top: 10px;
-    font-size: 45px;
-    text-align: center;
-    color: white;
-}
-
-.project3-title {
-    margin-top: 10px;
-    font-size: 45px;
-    text-align: center;
+    margin: 0;
     margin-left: 25px;
-    color: white;
+    letter-spacing: 0.05em;
+    text-shadow: rgb(196, 57, 29) 7px 3px 0px
+}
+
+.project-title {
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(196, 57, 29);
+    text-shadow: black 4px 1px 0
 }
 
 .projects-cointainer {
@@ -46,39 +35,26 @@
 }
 
 .project-cointainer {
-    width: 475px;
+    width: 500px;
     display: flex;
     display: block;
-    justify-content: center;
-    height: fit-content;
-}
-
-.project1-description {
-    width: 100%;
-    margin-left: 20px;
-}
-
-.project2-description {
-    width: 100%;
-    margin-left: 40px;
-}
-
-.project3-description {
-    width: 93%;
-    margin-left: 40px;
 }
 
 .project-text {
     font-size: 20px;
     margin-top: 10px;
+    display: flex;
+    color: #EBA70E;
+    text-shadow: black 4px 1px 0
 }
 
 .github-logo {
-    height: 80px;
-    width: 80px;
-    margin-top: 0px;
-margin-left: 210px;
-opacity: 0.9;
+    height: 60px;
+    width: 60px;
+    margin-top: -20px;
+    opacity: 0.9;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
 .github-logo:hover {
