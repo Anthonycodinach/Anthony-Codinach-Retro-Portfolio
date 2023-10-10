@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Here you can access my professional digital portfolio that houses links to projects I have collaborated on with other developers &amp; solo projects",
   "main": "index.js",
-  "homepage": "https://Anthonycodinach.github.io/Anthony-Codinach-Retro-Portfolio",
+  "homepage": "https://Anthonycodinach.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
